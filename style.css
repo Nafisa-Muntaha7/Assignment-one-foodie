@@ -11,18 +11,26 @@ h1{
 .color{
     color: rgba(187, 29, 12, 0.699);
 }
+.style{
+    padding-left: 15%;
+}
 .section-one{
     display: flex;
     background-image: url(images/shapes/top-banner.png);
     background-repeat: no-repeat;
 }
+.width{
+    width: 80%;
+    padding-left: 10px; 
+    margin-left: 5%;      
+}
 .button{
     text-decoration: none;
     background-image: linear-gradient(rgba(165, 41, 27, 0.904),hotpink );
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 15px;
     font-weight: 700;
-    color: rgb(27, 27, 105)
+    color: rgb(27, 27, 105);
 }
 #image1{
    width: 55%;
@@ -31,31 +39,61 @@ h1{
 }
 #about-me{
     text-align: center;
-}
+    padding-top: 15%;
+} 
 .image2{
-    width: 20%;
-    height: 20%;
+    width: 90%;
+    height: 50%;
 }
 .image3{
-    width: 100%;
+    width: 95%;
+    height: 50%;
 }
 .image4{
-    width: 100%;
+    width: 93%;
+    height: 50%;
 }
 .section-two{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     display: flex;
 }
+#my-recipes{
+    text-align: center;
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .flex-con{
    display: flex;
-   margin: 20px;
+   margin: 25px;
 }
 .box-item{
-    width: 30%;
+    width:500px;
+    height: 500px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 5%;
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+}
+#food1{
+    border-left: 3px solid;
+    border-image: linear-gradient(rgb(61, 224, 61),rgb(231, 231, 124) );
+    border-image-slice: 1;   
+}
+#food2{
+    border-left: 3px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1; 
+}
+#food3{
+    border-left: 3px solid;
+    border-image: linear-gradient(rgb(160, 24, 24), rgb(204, 20, 204));
+    border-image-slice: 1;
+}
+.footer{
+    background-color:lightcoral;
+    text-align: center;
 }
