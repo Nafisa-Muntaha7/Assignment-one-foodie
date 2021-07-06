@@ -63,6 +63,7 @@ h1{
     background-image: url(images/shapes/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-top:0%;
 }
 .flex-con{
    display: flex;
@@ -92,6 +93,9 @@ h1{
     border-left: 3px solid;
     border-image: linear-gradient(rgb(160, 24, 24), rgb(204, 20, 204));
     border-image-slice: 1;
+}
+.extra{
+    display: flex;
 }
 .footer{
     background-color:lightcoral;
