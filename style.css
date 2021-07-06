@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.678);
+    padding-top: 15%;
+    padding-left: 5%;
+}
+.color{
+    color: rgba(187, 29, 12, 0.699);
+}
+.section-one{
+    display: flex;
+    background-image: url(images/shapes/top-banner.png);
+    background-repeat: no-repeat;
+}
+.image{
+    width: 25%;
+   padding-left: 10%;
+   padding-top: 5%;
+   padding-right: 5%;
+}
+.section-two{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+#paragraph{
+    text-align: right;
+}
